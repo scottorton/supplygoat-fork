@@ -9,6 +9,7 @@ aiohttp==3.7.4
 celery==5.1.2
 contextvars==2.4
 Django==3.2.8
+# checkov:skip=CVE-2022-34265: Testing dashboard
 elasticsearch==7.15.1
 Flask==2.0.2
 kafka-python==2.0
@@ -24,6 +25,8 @@ PyYAML==6.0
 redis==3.5.3
 sanic==21.9.1
 tornado==6.1
+# checkov:skip=CVE-2023-28370: Testing another supression
+# checkov:skip=GHSA-W235-7P84-XX57: This is not important to us
 Werkzeug==2.0.2
 yarl==1.7.0
 mysqlclient==2.1.0
